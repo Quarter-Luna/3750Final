@@ -23,32 +23,32 @@ int main(int argc,char *argv[])
     int row1, col1, row2, col2;
 
     printf("Enter number of rows for matrix 1: ");
-    scanf("%d", row1);
+    scanf("%d", &row1);
 
     printf("Enter number of columns for matrix 1: ");
-    scanf("%d", col1);
+    scanf("%d", &col1);
 
     printf("Enter the matrix:\n");
     for(int i = 0; i < row1; i++)
     {
         for(int j = 0; j < col1; j++)
         {
-            scanf("%d",mat1[i][j]);
+            scanf("%d",&mat1[i][j]);
         }
     }
     
     printf("Enter number of rows for matrix 1: ");
-    scanf("%d", row2);
+    scanf("%d", &row2);
 
     printf("Enter number of columns for matrix 1: ");
-    scanf("%d", col2);
+    scanf("%d", &col2);
 
     printf("Enter the second matrix:\n");
     for(int i = 0; i < row2; i++)
     {
         for(int j = 0; j < col2; j++)
         {
-            scanf("%d",mat2[i][j]);
+            scanf("%d",&mat2[i][j]);
         }
     }
 
