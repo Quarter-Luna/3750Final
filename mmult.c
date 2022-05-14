@@ -75,9 +75,9 @@ int main(int argc,char *argv[])
     {
         for(int j = 0; j < row2; j++)
         {
-            fprint("%d\t", fin[i][j]);
+            printf("%d\t", fin[i][j]);
         }
-        fprint('\n');
+        printf('\n');
     }
     return 0;
 }
