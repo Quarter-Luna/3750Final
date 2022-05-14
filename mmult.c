@@ -59,12 +59,12 @@ int main(int argc,char *argv[])
     }
 
     printf("Multiplied matrix:\n");
-    for(int i = 0; i < col1; i++)
+    for(int i = 0; i < row1; i++)
     {
-        for(int j = 0; j < row2; j++)
+        for(int j = 0; j < col2; j++)
         {
             fin[i][j] = 0;
-            for(int k = 0; k < col1; k++)
+            for(int k = 0; k < col2; k++)
             {
                 fin[i][j] += mat1[i][k] * mat2[k][j];
             }
