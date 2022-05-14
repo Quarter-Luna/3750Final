@@ -66,7 +66,7 @@ int main(int argc,char *argv[])
             fin[i][j] = 0;
             for(int k = 0; k < col2; k++)
             {
-                fin[i][j] += mat1[i][k] * mat2[k][j];
+                fin[i][j] += (mat1[i][k] * mat2[k][j]);
             }
         }
     }
