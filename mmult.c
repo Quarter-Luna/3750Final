@@ -37,10 +37,10 @@ int main(int argc,char *argv[])
         }
     }
     
-    printf("Enter number of rows for matrix 1: ");
+    printf("Enter number of rows for matrix 2: ");
     scanf("%d", &row2);
 
-    printf("Enter number of columns for matrix 1: ");
+    printf("Enter number of columns for matrix 2: ");
     scanf("%d", &col2);
 
     printf("Enter the second matrix:\n");
