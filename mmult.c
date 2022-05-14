@@ -61,11 +61,14 @@ int main(int argc,char *argv[])
     printf("Multiplied matrix:\n");
     for(int i = 0; i < row1; i++)
     {
+        printf("here");
         for(int j = 0; j < col2; j++)
         {
+            printf("here");
             int total = 0;
             for(int k = 0; k < row2; k++)
             {
+                printf("here");
                 total += (mat1[i][k] * mat2[k][j]);
             }
             fin[i][j] = total;
@@ -78,7 +81,7 @@ int main(int argc,char *argv[])
         {
             printf("%d\t", fin[i][j]);
         }
-        printf('\n');
+        printf("\n");
     }
     return 0;
 }
