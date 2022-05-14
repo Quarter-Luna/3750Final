@@ -19,19 +19,19 @@
 int main(int argc, char *argv[])
 {
     // argument check
-    if(argv >= 5 || argv < 4)
+    if(argc > 5 || argc < 4)
     {
         printf("Invaled number of arguments");
         return 1;
     }
 
-    char *mtx1 = argv[0], // matrix 1
-    *mtx2 = argv[1], // matrix 2
-    *out = argv[2]; // output file
+    char *mtx1 = argv[1], // matrix 1
+    *mtx2 = argv[2], // matrix 2
+    *out = argv[3]; // output file
 
-    if(argv == 4)
+    if(argc == 4)
     {
-        int threds = atoi(argv[3]);
+        int threds = atoi(argv[4]);
     }
 
 }
